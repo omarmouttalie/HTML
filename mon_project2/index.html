@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs, labels et groupes de champs</title>
+    <style>
+        body {
+            font-family: Montserrat;
+            background: #aeeebf;
+            background: radial-gradient(circle, rgba(174, 238, 191, 1) 0%, rgba(148, 187, 233, 1) 100%);
+        }
+
+        button {
+            font-family: Montserrat;
+            background-color: blueviolet;
+            color: white;
+            border: black solid 1px;
+            border-radius: 6px;
+            padding: 5px;
+            cursor: pointer;
+            margin-left: 8px;
+            transition: all ease 0.5s;
+        }
+
+        button:hover {
+            color: blueviolet;
+            background-color: white;
+        }
+
+        .input {
+            font-family: Montserrat;
+        }
+
+       
+    </style>
+</head>
+<body>
+    
+    <form action="#" method="post">
+        <fieldset>
+            <legend class="legend">Contact</legend>
+            <label for="nom">Nom :</label>
+            <input class="input" type="text" id="nom" name="nom" placeholder="Votre nom">
+            <label for="email">E-mail :</label>
+            <input class="input" type="email" id="email" name="email" placeholder="exemple@mail.com">
+        </fieldset>
+   </form>
+
+    <p>Genre :</p>
+    <label>
+    <input type="radio" name="genre" value="homme"> Homme
+    </label>
+    <label>
+    <input type="radio" name="genre" value="femme"> Femme
+    </label>
+
+    <button type="submit">Envoyer</button>
+
+</body>
+</html>
