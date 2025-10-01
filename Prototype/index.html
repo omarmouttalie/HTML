@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prototype</title>
+    <style>
+        body {
+            margin-top: 120px;
+            font-family: SUSE Mono;
+            background: #EEAECA;
+            background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+        }
+
+        h1 {
+            font-family: Allura;
+            color: whitesmoke;
+            text-decoration: underline;
+        }
+
+        h3, h3 {
+            text-decoration: underline;
+        }
+
+        .header-container {
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          background-color: blueviolet;
+          
+        }
+
+        header {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+
+        img {
+            object-fit: contain;
+            width: 10%;
+        }
+
+        table {
+            margin-bottom: 150px;
+            border-radius: 5px;
+            color: #F28161;
+            font-weight: bold;
+            border: solid black ;
+        }
+
+        button {
+            background-color: rgb(122, 34, 34);
+            border: none;
+            text-decoration: underline;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #fc967a;
+            font-family: SUSE Mono;
+        }
+    </style>
+</head>
+<body>
+    <div class="header-container">
+        <header>
+            <div>
+                <h1>Omar Mouttalie</h1>
+            </div>
+            <div class="img-div">
+                <img src="coding.png" alt="coder SVG">
+            </div>
+        </header>
+    </div>
+    <main>
+        <article>
+            <h3>About:</h3>
+            <p>
+                Hello, My name is Omar mouttalie i'm 20 years old I am passionate about web development.
+                my hobbies are playing video games and watching movies.
+            </p>
+        </article>
+        <div class="div1">
+            <h3>Personal info:</h3>
+            <ul>
+                <li>Age: 20</li>
+                <li>E-mail: omarmouttalie@gmail.com</li>
+                <li>Adress: GHARSAT JAMAE RUE 20 TANGER</li>
+            </ul>
+        </div>
+        <div class="div2">
+            <h3>
+                My Skills:
+            </h3>
+            <table border="2">
+                <tr>
+                    <td>HTML</td>
+                    <td>GOOD LEVEL</td>
+                </tr>
+                
+                <tr>
+                    <td>CSS</td>
+                    <td>GOOD LEVEL</td>
+                </tr>
+
+                <tr>
+                    <td>JAVASCRIPT</td>
+                    <td>BEGINNER LEVEL</td>
+                </tr>
+
+                <tr>
+                    <td>UI/UX DESIGN</td>
+                    <td>INTERMEDIATE LEVEL</td>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <button><a target="_blank" href="https://github.com/omarmouttalie">My Github </a></button>
+    </footer>
+</body>
+</html>
